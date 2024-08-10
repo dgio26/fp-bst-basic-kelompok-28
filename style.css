@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #ffffff;
+  background-color: #4158A6;
   color: #333;
   margin: 0;
   padding: 0;
@@ -20,22 +20,31 @@ body {
 h1 {
   font-size: 50px;
   font-weight: 700;
-  color: #333;
+  color: #EE8D2F;
   margin-bottom: 30px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 i {
   margin-right: 10px; 
-  color: skyblue;
+  color: #EE8D2F;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
 }
 
 .create-note-button {
-  background-color: #ffff00;
-  color: black;
+  background-color: #EE8D2F;
+  color: #F5F3E5;
   padding: 12px 24px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -44,8 +53,7 @@ h1 i {
 }
 
 .create-note-button:hover {
-  background-color: #FFC000;
-}
+  background-color: #F6B951}
 
 .notes-container {
   display: flex;
@@ -56,7 +64,7 @@ h1 i {
 }
 
 .note {
-  background-color: goldenrod;
+  background-color: #F5F3E5;
   border-radius: 10px;
   padding: 15px;
   width: 250px;
@@ -79,7 +87,7 @@ h1 i {
   background: none;
   border: none;
   cursor: pointer;
-  color: gray;
+  color: #4158A6;
   font-size: 18px;
   transition: color 0.3s ease;
 }
@@ -88,13 +96,21 @@ h1 i {
   color: black;
 }
 
+.note-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #333;
+}
+
 .note-body {
   font-size: 16px;
   color: #555;
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: #FFD580;
+  background-color: #fffceb;
   height: 120px;
   overflow-y: auto;
 }
