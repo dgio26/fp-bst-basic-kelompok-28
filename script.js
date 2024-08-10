@@ -17,7 +17,7 @@ function createNote() {
         <div class="note-body" contenteditable="true"></div>
     `;
 
-    notesContainer.appendChild(note);
+    notesContainer.prepend(note);
 }
 
 function showNoteBody(button) {
